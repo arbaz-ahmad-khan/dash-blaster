@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <link rel="stylesheet preload" as="font" href="assets/fonts/toJapan.ttf" type="font/ttf" crossorigin /> -->
+	<link rel="stylesheet preload" as="font" href="assets/fonts/LeagueSpartan-Bold.otf" type="font/otf" crossorigin />
+	<link rel="icon" href="assets/image/ball-2.png" type="image/png">
+    <link rel="shortcut icon" href="assets/image/gamePlay/ball-2.png" type="image/png">
+	
+	<title>Dash Blaster</title>
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		@font-face {
+			font-family: 'LeagueSpartan-Bold';
+			src: url('assets/fonts/LeagueSpartan-Bold.otf');
+		}
+		body {
+			background-image: url('assets/image/bg.png');
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		#game-division canvas {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			margin: 0 !important;
+		}
+
+		#game-division {
+			max-height: calc(var(--vh, 1vh) * 100);
+		}
+
+		:root {
+			--vh: 1vh;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="game-division"></div>
+</body>
+
+</html>

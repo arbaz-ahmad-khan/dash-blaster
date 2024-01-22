@@ -1,0 +1,78 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/image/ball.png",
+                "type": "image",
+                "key": "ball"
+            },
+            {
+                "url": "assets/image/gamePlay/ball-2.png",
+                "type": "image",
+                "key": "ball-2"
+            },
+            {
+                "url": "assets/image/gameOver/gameOverBg.png",
+                "type": "image",
+                "key": "gameOverBg"
+            },
+            {
+                "url": "src/scenes/GamePlay.js",
+                "type": "sceneFile",
+                "key": "GamePlay"
+            },
+            {
+                "url": "assets/image/gamePlay/gamePlayBg.png",
+                "type": "image",
+                "key": "gamePlayBg"
+            },
+            {
+                "url": "assets/image/home/homeBg.png",
+                "type": "image",
+                "key": "homeBg"
+            },
+            {
+                "url": "assets/image/gameOver/homeBtn.png",
+                "type": "image",
+                "key": "homeBtn"
+            },
+            {
+                "url": "assets/image/home/playBtn.png",
+                "type": "image",
+                "key": "playBtn"
+            },
+            {
+                "url": "assets/image/gameOver/replayBtn.png",
+                "type": "image",
+                "key": "replayBtn"
+            },
+            {
+                "url": "assets/image/gamePlay/Ring.png",
+                "type": "image",
+                "key": "Ring"
+            },
+            {
+                "url": "assets/image/gamePlay/Score.png",
+                "type": "image",
+                "key": "Score"
+            },
+            {
+                "url": "assets/image/gamePlay/score-base.png",
+                "type": "image",
+                "key": "score-base"
+            },
+            {
+                "url": "assets/image/gameOver/ui_base.png",
+                "type": "image",
+                "key": "ui_base"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

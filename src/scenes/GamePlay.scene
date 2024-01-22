@@ -1,0 +1,167 @@
+{
+    "id": "752a0f81-6fe1-435c-955e-f0c084fa1582",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GamePlay",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "6d2b1d74-5a5d-450b-b8f2-496f24521f1d",
+            "label": "gamePlayBg",
+            "texture": {
+                "key": "gamePlayBg"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Image",
+            "id": "f157d907-fb79-4441-8c02-f7ee672ec74f",
+            "label": "score",
+            "texture": {
+                "key": "Score"
+            },
+            "x": 110,
+            "y": 1824,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        {
+            "type": "Image",
+            "id": "6eff0f78-9b04-4525-a706-e57c64da8531",
+            "label": "score_base",
+            "texture": {
+                "key": "score-base"
+            },
+            "x": 100,
+            "y": 1754,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        {
+            "type": "Container",
+            "id": "8540860c-368d-4086-b660-9bd6a4de5b5b",
+            "label": "container_game_play",
+            "scope": "CLASS",
+            "y": 1,
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "00725870-1683-4082-9b86-7501694eb19a",
+                    "label": "scoreText",
+                    "scope": "CLASS",
+                    "x": 101,
+                    "y": 1750,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "LeagueSpartan-Bold",
+                    "fontSize": "50px",
+                    "color": "#754027"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "44aa0064-92b1-491d-ad38-e60e425abad8",
+            "label": "container_particle",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "6aa8e869-f7f2-4ba0-88d8-364cb48e3f50",
+            "label": "gameOverContainer",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c70bd79c-46f3-40cb-85ca-6c98f5bb1293",
+                    "label": "gameOverBg",
+                    "texture": {
+                        "key": "gameOverBg"
+                    },
+                    "x": 540,
+                    "y": 960,
+                    "alpha": 0.6,
+                    "alphaTopLeft": 0.6,
+                    "alphaTopRight": 0.6,
+                    "alphaBottomLeft": 0.6,
+                    "alphaBottomRight": 0.6
+                },
+                {
+                    "type": "Image",
+                    "id": "1442c5ff-ff0b-4d83-929c-863c5ed2ebd1",
+                    "label": "ui_base",
+                    "texture": {
+                        "key": "ui_base"
+                    },
+                    "x": 540,
+                    "y": 960
+                },
+                {
+                    "type": "Text",
+                    "id": "f040fd7c-3a8d-4f55-b65e-657b2c7b313e",
+                    "label": "highScoreText",
+                    "scope": "CLASS",
+                    "x": 446,
+                    "y": 990,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "LeagueSpartan-Bold",
+                    "fontSize": "100px",
+                    "color": "#754027"
+                },
+                {
+                    "type": "Text",
+                    "id": "3bc88781-d737-4677-9054-b40066e1ea69",
+                    "label": "yourScoreText",
+                    "scope": "CLASS",
+                    "x": 681,
+                    "y": 990,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "LeagueSpartan-Bold",
+                    "fontSize": "100px",
+                    "color": "#754027"
+                },
+                {
+                    "type": "Image",
+                    "id": "13188c37-14aa-4ce6-8bf4-d1880cb2f27a",
+                    "label": "homeBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "homeBtn"
+                    },
+                    "x": 422,
+                    "y": 1160
+                },
+                {
+                    "type": "Image",
+                    "id": "dc1eba49-f513-4837-be34-e177174f0d64",
+                    "label": "replayBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "replayBtn"
+                    },
+                    "x": 710,
+                    "y": 1160
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}
